@@ -1,3 +1,4 @@
+export { useLoginMutation, userApi, useRegisterMutation } from "./api/userApi";
 export { selectUser } from "./model/selectors";
 export type {
   LoginUserData,

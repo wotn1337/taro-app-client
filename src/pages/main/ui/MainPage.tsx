@@ -1,4 +1,5 @@
 import { selectUser } from "@/entities/user";
+import { CardsMenu } from "@/widgets/cards-menu";
 import { FC } from "react";
 import { useSelector } from "react-redux";
 
@@ -8,8 +9,7 @@ export const MainPage: FC<Props> = ({}) => {
   const user = useSelector(selectUser);
   return (
     <>
-      <div>main page</div>
-      <div>{user?.username}</div>
+      <CardsMenu />
     </>
   );
 };

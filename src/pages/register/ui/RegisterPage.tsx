@@ -1,5 +1,9 @@
-import { RegisterUserData, selectUser, setUser } from "@/entities/user";
-import { useRegisterMutation } from "@/shared/api";
+import {
+  RegisterUserData,
+  selectUser,
+  setUser,
+  useRegisterMutation,
+} from "@/entities/user";
 import { Button, Flex, Form, FormProps, Input, Typography } from "antd";
 import { FC } from "react";
 import { useDispatch, useSelector } from "react-redux";

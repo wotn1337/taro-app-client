@@ -9,7 +9,7 @@ const { Content } = AntdLayout;
 export const Layout = ({}: Props) => {
   return (
     <AntdLayout className={s.layout}>
-      <Content>
+      <Content className={s.content}>
         <Outlet />
       </Content>
     </AntdLayout>

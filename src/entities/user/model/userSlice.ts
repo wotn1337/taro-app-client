@@ -1,4 +1,4 @@
-import { userApi } from "@/shared/api/userApi";
+import { userApi } from "@/entities/user";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import type { User, UserState } from "./types";
 

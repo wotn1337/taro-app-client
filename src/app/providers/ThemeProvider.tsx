@@ -11,10 +11,11 @@ export const ThemeProvider = ({ children }: Props) => {
       theme={{
         token: {
           colorPrimary: "#292966",
+          fontFamily: '"Playfair Display", serif',
         },
         components: {
           Layout: {
-            bodyBg: "#CCCCFF",
+            bodyBg: "transparent",
           },
         },
         cssVar: true,

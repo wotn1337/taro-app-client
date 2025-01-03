@@ -1,5 +1,5 @@
 import type { LoginUserData, RegisterUserData, User } from "@/entities/user";
-import { baseApi } from "./baseApi";
+import { baseApi } from "@/shared/api";
 
 type AuthResponse = {
   jwt: string;
